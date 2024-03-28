@@ -35,8 +35,8 @@ import kotlinx.serialization.Serializable
 
 
 val supabase = createSupabaseClient(
-    supabaseUrl = "https://uvixodpieskmkytcnijq.supabase.co",
-    supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InV2aXhvZHBpZXNrbWt5dGNuaWpxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTEwNDQ2OTIsImV4cCI6MjAyNjYyMDY5Mn0.WSb0KdvCfCLG8lXgvaYq502Z_Q4tKPrZKT1HULmRjwM"
+    supabaseUrl = "",
+    supabaseKey = ""
 ) {
     install(Postgrest)
 }
